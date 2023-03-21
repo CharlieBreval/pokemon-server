@@ -14,14 +14,6 @@ const resolvers = {
       return pokemons.slice(args.offset, args.offset + args.limit);
     },
   },
-  Pokemon: {
-    name(pokemon) {
-      throw new Error("This is a big fail");
-    },
-    cartouche(pokemon) {
-      return pokemon.cartouche;
-    },
-  },
 };
 
 const server = new ApolloServer({
