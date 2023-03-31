@@ -26,4 +26,8 @@ export const typeDefs = gql`
     pokemon(id: ID!): Pokemon
     paginatedPokemons(offset: Int!, limit: Int!): [Pokemon]
   }
+
+  type Mutation {
+    updatePokemon(id: ID!, name: String, type: String): Pokemon!
+  }
 `;

@@ -29,12 +29,6 @@ export const pokemons = [
     type: "Fire",
     cartouche: Cartouche.GOLD,
   },
-  {
-    id: 4,
-    name: "Feunard",
-    type: "Fire",
-    cartouche: Cartouche.GOLD,
-  },
   { id: 5, name: "Aipom", type: "Normal", cartouche: Cartouche.RED },
   { id: 6, name: "Alakazam", type: "Psychic", cartouche: Cartouche.RED },
   { id: 7, name: "Alcremie", type: "Fairy", cartouche: Cartouche.RED },
